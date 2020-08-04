@@ -1,0 +1,70 @@
+{
+    "editor.fontSize": 16, // 文字大小
+    "editor.formatOnSave": true, // 保存文件格式化代码
+    "explorer.compactFolders": false, // 不压缩代码结构
+    "breadcrumbs.enabled": false, // 导航路径
+    "workbench.colorTheme": "One Dark Pro", // 主题颜色
+    "workbench.iconTheme": "vscode-icons", // 文件夹图标颜色
+    // "editor.formatOnSave": true,
+    // live 自带服务器配置
+    "liveServer.settings.https": {
+        "enable": false,
+        "cert": "/keys/serverRTC.crt",
+        "key": "/keys/serverRTC.pem",
+        "passphrase": ""
+    },
+    "liveServer.settings.host": "172.16.1.81",
+    // 头部注释
+    "fileheader.customMade": {
+        "Description": "",
+        "Author": "wx-win",
+        "Date": "Do not edit", // 设置后默认设置文件生成时间
+        "LastEditTime": "Do not edit" // 设置后，保存文件更改默认更新最后编辑时间
+    },
+    // 头部注释
+    "fileheader.cursorMode": {}, // 函数注释
+    "fileheader.configObj": {
+        "autoAdd": false, // 默认开启
+        "createHeader": false, // 默认打开
+        "wideSame": true, // 设置为true开启
+        "wideNum": 13 // 字段长度 默认为13
+    },
+    "vetur.format.enable": false, // 关闭vue插件格式化
+    "beautify.language": { // 代码风格
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "vue"
+        ]
+    },
+    "beautify.config": {
+        "eol": "\n",
+        "end_with_newline": true,
+        "indent_size": 4,
+        "reserve_newlines": true,
+        "brace_style": "none,preserve-inline",
+        "newline_between_rules": false,
+        "indent_level": 0
+    }, // 关闭后台更新
+    "telemetry.enableTelemetry": false, // 关闭问题发送
+    "telemetry.enableCrashReporter": false,
+    "svg.preview.mode": "img",
+    "editor.renderWhitespace": "boundary",
+    "update.enableWindowsBackgroundUpdates": false,
+}
